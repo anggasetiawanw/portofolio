@@ -1,5 +1,5 @@
 const nextConfig = {
-  // basePath: '/portfolio',
+  basePath: '/portofolio',
   output: 'export',
   reactStrictMode: true,
 };
