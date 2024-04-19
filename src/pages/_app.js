@@ -1,11 +1,11 @@
 import Theme from '../styles/theme';
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vipul Jha - Android Developer</title>
+        <title>Angga S. - Software Engineer</title>
       </Head>
       <Theme>
         <Component {...pageProps} />

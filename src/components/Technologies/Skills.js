@@ -1,81 +1,69 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
+import { DiTerminal, DiJava, DiHtml5 } from 'react-icons/di';
+import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql } from 'react-icons/si';
+import { RiFlutterFill } from 'react-icons/ri';
+import { VscRadioTower } from 'react-icons/vsc';
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    slug: 'IoT',
+    Component: VscRadioTower,
+    title: 'IoT',
+    Description: () => <>ESP32, STM32, MQTT, PCB Design</>,
   },
   {
-    slug: "flutter",
+    slug: 'flutter',
     Component: RiFlutterFill,
-    title: "Flutter",
+    title: 'Flutter',
     Description: () => <>Cross-platform app development</>,
   },
   {
-    slug: "kotlin",
-    Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
-  },
-  {
-    slug: "dart",
+    slug: 'dart',
     Component: SiDart,
-    title: "Dart",
+    title: 'Dart',
     Description: () => <>Flutter apps only</>,
   },
   {
-    slug: "java",
+    slug: 'java',
     Component: DiJava,
-    title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
+    title: 'Java',
+    Description: () => <>Android apps and Java Spring</>,
   },
 
   {
-    slug: "html",
+    slug: 'html',
     Component: DiHtml5,
-    title: "HTML",
+    title: 'HTML',
     Description: () => <>Static webpages and portfolio projects</>,
   },
   {
-    slug: "css",
+    slug: 'css',
     Component: SiCss3,
-    title: "CSS",
+    title: 'CSS',
     Description: () => <>Styling of my webpages</>,
   },
 
   {
-    slug: "sql",
+    slug: 'sql',
     Component: SiMysql,
-    title: "MySQL",
-    Description: () => <>Storing client and user data</>,
+    title: 'MySQL',
+    Description: () => <>Storing data</>,
   },
   {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
-  },
-  {
-    slug: "terminal",
+    slug: 'terminal',
     Component: DiTerminal,
-    title: "Bash",
+    title: 'Bash',
     Description: () => <>Ease of life and build scripts</>,
   },
   {
-    slug: "firebase",
+    slug: 'firebase',
     Component: SiFirebase,
-    title: "Firebase",
+    title: 'Firebase',
     Description: () => <>Authentication, database and analytics</>,
   },
   {
-    slug: "git",
+    slug: 'git',
     Component: SiGit,
-    title: "Git",
+    title: 'Git',
     Description: () => <>Code management and open source contributions</>,
   },
 ];

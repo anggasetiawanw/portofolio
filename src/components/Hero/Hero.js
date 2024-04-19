@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle, Link } from '../../styles/GlobalComponents';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+  Link,
+} from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -12,12 +17,22 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-        I'm Vipul Jha, also known as lordarcadius. I'm an Android developer from Delhi, India with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+          I'm Angga. I am a dedicated and results-driven technology professional
+          with a strong educational background in Electrical Engineering from
+          Universitas Siliwangi. My passion lies in leveraging cutting-edge
+          technologies to create innovative solutions that address real-world
+          challenges. With 2 years of experience as an IoT Engineer and 1 year
+          as a Flutter Developer, I have honed my skills in both hardware and
+          software development.
         </SectionText>
-        <Button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = '/files/resume.pdf';
-        }}>My Resume</Button>
+        <Button
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = '/files/resume.pdf';
+          }}
+        >
+          My Resume
+        </Button>
       </LeftSection>
     </Section>
   </>
