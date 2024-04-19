@@ -36,25 +36,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta name="title" content="Angga S. - Software Engineer" />
-          <meta
-            name="description"
-            content="Angga S., also known as lordarcadius is an Android Engineer at Primebook. He has also worked on ROMs, Kernels and Scripts."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content="Angga S. - Software Engineer" />
-          <meta
-            property="og:description"
-            content="Angga S., also known as lordarcadius is an Android Engineer at Primebook. He has also worked on ROMs, Kernels and Scripts."
-          />
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:title"
-            content="Angga S. - Software Engineer"
-          />
-          <meta
-            property="twitter:description"
-            content="Angga S., also known as lordarcadius is an Android Engineer at Primebook. He has also worked on ROMs, Kernels and Scripts."
-          />
         </Head>
         <body>
           <Main />
