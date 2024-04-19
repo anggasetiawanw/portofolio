@@ -28,7 +28,8 @@ const Hero = (props) => (
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = '/files/resume.pdf';
+            window.location.href =
+              'https://drive.google.com/file/d/1LR2OAJp4G60ETzCpDJnYsh7pjBewbHyg/view?usp=sharing';
           }}
         >
           My Resume
