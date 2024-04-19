@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-
-  // Add basePath
   basePath: '/portofolio',
+  output: 'export',
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
