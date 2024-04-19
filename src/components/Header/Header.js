@@ -22,7 +22,7 @@ const Header = () => (
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: 'white' }}
       >
-        <img src="/logo.svg" height={60} width={60} />{' '}
+        <img src="/portofolio/logo.svg" height={60} width={60} />{' '}
         <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
           Angga S. Wahyudin
         </span>

@@ -3,7 +3,7 @@ export const projects = [
     title: 'Pitik Internal App',
     description:
       'Pitik Internal App is an app for manage all internal activity in Pitik especially downstream and fresh team from Purchase until sales order. This app usign Flutter as the main framework. This app also using Firebase Cloud Messaging for notification and SQLite for local database. This app also using Flavor for differentiate between production and development environment. This app also using Riverpod for state management. This app is available on Google Play Store and App Store. ',
-    image: '/images/internal.png',
+    image: '/portofolio/images/internal.png',
     tags: ['Flutter', 'FCM', 'SQLite', 'Flavor', 'Riverpod'],
     source: '',
     visit:
@@ -14,7 +14,7 @@ export const projects = [
     title: 'Pitik Connect App',
     description:
       'Pitik Connect App is an app for connect all Pitik user with Pitik Devices. This app usign Flutter as the main framework. This app also using Firebase Cloud Messaging for notification and SQLite for local database. This app also using Flavor for differentiate between production and development environment. This app also using GetX for state management. This app is available on App Store and Play Store.',
-    image: '/images/connect.png',
+    image: '/portofolio/images/connect.png',
     tags: ['Flutter', 'FCM', 'SQLite', 'Flavor', 'GetX'],
     source: '',
     visit: 'https://apps.apple.com/id/app/pitik-connect/id6469746920',
@@ -24,7 +24,7 @@ export const projects = [
     title: 'Pitik Smart Farm',
     description:
       'Pitik Smart Farm is an app for manage all Pitik Devices and Manage all Chicken and Egg Production (Layer App, PPL App and Farm App). This app usign Flutter as the main framework. This app also using Firebase Cloud Messaging for notification and SQLite for local database. This app also using Flavor for differentiate between production and development environment. This app also using Riverpod for state management. This app is available on App Store and Play Store. This App also using Modular for separate each feature.',
-    image: '/images/smart.png',
+    image: '/portofolio/images/smart.png',
     tags: ['Flutter', 'FCM', 'Flavor', 'Riverpod', 'Modular'],
     source: '',
     visit: 'https://play.google.com/store/apps/details?id=id.pitik.mobile',
@@ -34,7 +34,7 @@ export const projects = [
     title: 'Smart IoT Device',
     description:
       'Develop smart controller app and device using ESP32 for communicating with end users and STM32 to control the environment of the farms such as temperature and humidity by setting the fan, heater, cooler, and light through IoT Smart Controller portable devices from mobile apps via WiFi.      ',
-    image: '/images/iot.png',
+    image: '/portofolio/images/iot.png',
     tags: ['C/C++', 'ESP-32', 'STM-32', 'MQTT', 'PCB Design'],
     source: '',
     visit: '',
@@ -44,7 +44,7 @@ export const projects = [
     title: 'Travelika App',
     description:
       'This was my personal project portfolio App. This App demostrate the use of various Flutter widgets and animations. It has a beautiful, simple, fast, and responsive UI. This App using Bloc State Management.',
-    image: '/images/travelika.png',
+    image: '/portofolio/images/travelika.png',
     tags: ['Flutter', 'Bloc', 'Firebase'],
     source: '',
     visit: 'https://github.com/anggasetiawanw/travelika',
@@ -54,7 +54,7 @@ export const projects = [
     title: 'Xenon Store App',
     description:
       'This was my personal project portfolio App. This App demostrate the use of various Flutter widgets and animations. It has a beautiful, simple, fast, and responsive UI. This App using Bloc State Management.',
-    image: '/images/xenon.png',
+    image: '/portofolio/images/xenon.png',
     tags: ['Flutter', 'Bloc', 'Firebase'],
     source: '',
     visit: 'https://github.com/anggasetiawanw/xenon-store',
@@ -64,7 +64,7 @@ export const projects = [
     title: 'Xenon Store Backend',
     description:
       'This was my personal project backend for support Xenon Store App. This App Using Laravel 8 and MySQL for database. This App demostrate the use of various Laravel features and API.',
-    image: '/images/xenon.png',
+    image: '/portofolio/images/xenon.png',
     tags: ['Laravel', 'CMS', 'API'],
     source: '',
     visit: 'https://github.com/anggasetiawanw/backend-xenonstore',
