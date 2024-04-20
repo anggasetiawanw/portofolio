@@ -46,8 +46,8 @@ export const projects = [
       'This was my personal project portfolio App. This App demostrate the use of various Flutter widgets and animations. It has a beautiful, simple, fast, and responsive UI. This App using Bloc State Management.',
     image: '/portofolio/images/travelika.png',
     tags: ['Flutter', 'Bloc', 'Firebase'],
-    source: '',
-    visit: 'https://github.com/anggasetiawanw/travelika',
+    source: 'https://github.com/anggasetiawanw/travelika',
+    visit: '',
     id: 3,
   },
   {
@@ -56,8 +56,8 @@ export const projects = [
       'This was my personal project portfolio App. This App demostrate the use of various Flutter widgets and animations. It has a beautiful, simple, fast, and responsive UI. This App using Bloc State Management.',
     image: '/portofolio/images/xenon.png',
     tags: ['Flutter', 'Bloc', 'Firebase'],
-    source: '',
-    visit: 'https://github.com/anggasetiawanw/xenon-store',
+    source: 'https://github.com/anggasetiawanw/xenon-store',
+    visit: '',
     id: 3,
   },
   {
@@ -66,8 +66,8 @@ export const projects = [
       'This was my personal project backend for support Xenon Store App. This App Using Laravel 8 and MySQL for database. This App demostrate the use of various Laravel features and API.',
     image: '/portofolio/images/xenon.png',
     tags: ['Laravel', 'CMS', 'API'],
-    source: '',
-    visit: 'https://github.com/anggasetiawanw/backend-xenonstore',
+    source: 'https://github.com/anggasetiawanw/backend-xenonstore',
+    visit: '',
     id: 3,
   },
 ];
